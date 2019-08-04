@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 
 class Field extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            inputValue: ''
-        }
+    state = {
+        inputValue: ''
     }
 
     newValue = e => {

@@ -4,13 +4,10 @@ import './Form.css';
 import bondApprove from './assets/bond_approve.jpg';
 
 class Form extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            firstnameStatus: 'await',
-            lastnameStatus: 'await',
-            passwordStatus: 'await'
-        }
+    state = {
+        firstnameStatus: 'await',
+        lastnameStatus: 'await',
+        passwordStatus: 'await'
     }
 
     handleSubmit = e => {
