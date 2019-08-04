@@ -1,3 +1,10 @@
 import React from 'react'
+import Form from './../Form'
 
-export default () => <p>Homework app</p>
+const App = () => (
+    <div className="app-container">
+        <Form />
+    </div>
+)
+
+export default App;
